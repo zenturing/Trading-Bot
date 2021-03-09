@@ -8,7 +8,7 @@ docker pull --quiet ph3nol/freqtrade-ui:latest
 docker pull --quiet ph3nol/freqtrade-manager:latest
 
 echo "▶️  Downloading/Installing Trading Bot..."
-curl -sSL -o /usr/local/bin/bot https://raw.githubusercontent.com/Ph3nol/Trading-Bot/bot
+curl -sSL -o /usr/local/bin/bot https://raw.githubusercontent.com/zenturing/Trading-Bot/bot
 
 echo ""
 echo "✅ Your Trading Bot is now ready! 🚀🔥"
